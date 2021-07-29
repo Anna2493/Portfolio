@@ -1,0 +1,30 @@
+.nav-items{
+    background: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 100px;
+    list-style: none;
+    text-align: center;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-links{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-links:hover{
+    color: rgb(127, 10, 143);
+    transition: all 0.2s ease-out;
+    
+}
