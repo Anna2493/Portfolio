@@ -1,27 +1,28 @@
+
 export const NavigationItems = [
     {
         label: 'Home',
-        url: '#',
+        url: '/',
         className: 'nav-links'
     },
     {
         label: 'About',
-        url: '#',
+        url: '/About',
         className: 'nav-links'
     },
     {
         label: 'Projects',
-        url: '#',
+        url: '/Projects',
         className: 'nav-links'
     },
     {
         label: 'Blog',
-        url: '#',
+        url: '/Blog',
         className: 'nav-links'
     },
     {
         label: 'Contact',
-        url: '#',
+        url: '/Contact',
         className: 'nav-links'
     },
 

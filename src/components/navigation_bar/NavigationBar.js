@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { NavigationItems } from './NavigationItems'
 import './NavigationBar.css'
+import { Link } from 'react-router-dom';
 
 class NavigationBar extends Component {
     render() {
@@ -11,9 +12,12 @@ class NavigationBar extends Component {
                     {NavigationItems.map((item, index) => {
                         return (
                             <li key={index}>
-                                <a className={item.className} href={item.url}>
+                                <Link className={item.className} to={item.url}>
+                                    
                                     {item.label}
-                                </a>
+                                    
+                                </Link>
+                                
                             </li>
                         )
                     })}
