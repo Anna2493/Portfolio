@@ -12,7 +12,7 @@ export const NavigationItems = [
     },
     {
         label: 'Projects',
-        url: '/Projects',
+        url: '/QMethodology',
         className: 'nav-links'
     },
     {

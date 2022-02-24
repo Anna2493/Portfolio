@@ -8,7 +8,7 @@ class NavigationBar extends Component {
         return (
             <nav className='nav-items'>
                 
-                <ul className='nav-menu'>
+                {/* <ul className='nav-menu'>
                     {NavigationItems.map((item, index) => {
                         return (
                             <li key={index}>
@@ -21,7 +21,10 @@ class NavigationBar extends Component {
                             </li>
                         )
                     })}
-                </ul>
+                </ul> */}
+                <Link to='/QMethodology'>
+                    <a>Q Method</a>
+                </Link>
             </nav>
         )
     }

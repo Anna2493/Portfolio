@@ -1,0 +1,136 @@
+/* .grid-wrapper{
+    margin: 200px 400px 0px 400px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 100px;
+}
+
+.picture-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.profile-picture{
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.hi{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+}
+
+.about-me{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.projects-container{
+    border: 1px solid #000;
+
+} */
+
+.landing-page-container{
+    height: 100vh;
+    padding-top: 200px;
+}
+
+.introduction-container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction-container h1{
+    font-size: 100px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.introduction-container p{
+    font-size: 20px;
+    font-family: 'Comfortaa', sans-serif;
+    width: 100%;
+}
+
+.profile-picture{
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.introduction{
+    padding-left: 170px;
+}
+
+.navigation-container{
+    /* background: linear-gradient(
+        to right bottom, 
+        rgba(95, 98, 54, 0.7), 
+        rgba(139, 143, 88, 0.5)); */
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.5);
+    border: 0.5px solid rgb(92, 92, 92);
+    /* border-radius: 20px; */
+    margin-top: 100px;
+    width: 40%;
+    margin-left: 980px;
+    height: 10vh;
+    display: grid;
+   
+}
+
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+.border-gradient-purple {
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+
+}
+.nav-links{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-items: center;
+    align-items: center;
+}
+
+/* .nav-links > li:nth-child(odd){
+    background-color: bisque;
+} */
+
+.nav-link{
+    text-decoration: none;
+    font-size: 25px;
+    /* color: white; */
+    font-family: 'Comfortaa', cursive;
+}
+
+
+/* @media screen and (max-width: 1490px){
+    .landing-page-container{
+        height: auto;
+    }
+    .landing-page-container img{
+        height: 100%;
+    }
+    .projects-page-container{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .landing-page-container{
+        background-color: aqua;
+    }
+    .landing-page-container img{
+        opacity: 0%;
+    }
+    .projects-page-container{
+        background-color: blue;
+    }
+} */

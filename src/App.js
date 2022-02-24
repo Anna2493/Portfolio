@@ -2,23 +2,52 @@ import './App.css';
 import NavigationBar from './components/navigation_bar/NavigationBar'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 
-import Home from './pages/Home'
-import About from './pages/About'
-import Projects from './pages/Projects'
+import Home from './components/pages/home/Home'
+import About from './components/pages/about/About'
+import Projects from './components/pages/projects/Projects';
+import QMethod_project from './components/pages/projects/QMethodology_project/QMethodology'
+import AutoQSurvey_project from './components/pages/projects/autoQsurvey_project/AutoQsurvey_project'
+
+//import Projects from './components/pages/Projects'
 
 function App() {
   return (
-    <Router>
-      <div className='App'>
-        <NavigationBar />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/About" component={About} />
-          <Route path="/Projects" component={Projects} />
-        </Switch>
-      </div>
-    </Router>
+    <div>
+      <header>
+        <Home />
+      </header>
+      <section>
+      <About/>
+      </section>
+      
+      
+      <Projects />
+    </div>
+    
   );
 }
+
+// function App() {
+//   return (
+//     <Router>
+//       <div>
+        
+//         {/* <Home />
+//          <Projects /> */}
+//         {/* <NavigationBar /> */}
+//         <Switch>
+//           <Route path="/" exact component={Home} />
+//           <Projects/>
+//           <Route path="/QMethodology" component={QMethod_project} />
+//           <Route path="/autoQsurvey_project" component={AutoQSurvey_project} />
+//         </Switch>
+
+//         {/* <NavigationBar /> */}
+
+        
+//       </div>
+//     </Router>
+//   );
+// }
 
 export default App;
