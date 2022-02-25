@@ -13,8 +13,8 @@ function Home() {
                     <p>My name is Anna, I am a graduate Software Engineer
                     with a passion for front end design and implementation.
                     Take a look at some of my projects that I worked on.
-                    If you like what you see and wish to contact me for more details
-                    please do not hesitate, I will be excited to hear from you!
+                        If you like what you see and wish to contact me
+                        please do not hesitate, I will be excited to hear from you!
                     </p>
                 </div>
             </div>

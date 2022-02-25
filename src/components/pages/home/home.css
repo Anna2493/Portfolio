@@ -48,12 +48,14 @@
 .introduction-container h1{
     font-size: 100px;
     font-family: 'Comfortaa', sans-serif;
+    color: #1C2D2C;
 }
 
 .introduction-container p{
     font-size: 20px;
     font-family: 'Comfortaa', sans-serif;
     width: 100%;
+    color: #1C2D2C;
 }
 
 .profile-picture{
