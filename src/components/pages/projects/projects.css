@@ -1,8 +1,19 @@
 .projects-page-container{
-    /* height: 100vh;
-    width: 100%; */
-    background-color: rgb(227, 233, 173);
+    height: 100vh;
+    background-color: #EFDFDD;
     display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.projects-page-container h2{
+    font-size: 50px;
+    font-family: 'Comfortaa', sans-serif;
+    color: #6C8C8A;
+}
+
+.cards-container{
+    margin-bottom: 200px;
 }
 
 
