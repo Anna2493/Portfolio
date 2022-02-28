@@ -3,28 +3,69 @@
     background-color: #FCF3E9;
     display: grid;
     justify-items: center;
-    align-items: center;
+    /* align-items: center; */
+    background-image: url('../../images/background/aboutMe/background4.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100vw 700px;
+    
 }
 
 .about-page-container h2{
     font-size: 50px;
     font-family: 'Comfortaa', sans-serif;
     color: #6C8C8A;
+    margin-top: 10px;
+}
+
+.about-me-wrapper{
+    display: grid;
+    justify-items: center;
+    margin-top: -50px;
+    
+}
+
+.about-me-wrapper h3{
+    font-size: 30px;
+    font-family: 'Comfortaa', sans-serif;
+    color: #6C8C8A;
+    padding: 20px;
 }
 
 .about-me-container{
-    margin-bottom: 200px;
-    border: 1px solid black;
     width: 50%;
-    padding: 40px;
-    font-size: 20px;
+    padding: 20px;
+    font-size: 17px;
     font-family: 'Comfortaa', sans-serif;
     color: #1C2D2C;
     display: grid; 
+    border: 1px solid white;
+    /* background: white;
+    background: linear-gradient(
+        to right bottom, 
+        rgba(255, 255, 255, 0.8), 
+        rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(20px); */
+    backdrop-filter: blur(20px);
 }
 
 .about-me-container div{
-    margin-top: 20px;
+    /* margin-top: 20px; */
+}
+
+.my-skills-container{
+
+}
+
+.background-image-container{
+    /* z-index: -1; */
+    
+}
+
+.background-image-container img{
+    z-index: -1;
+    position: absolute;
+    top: 5%;
 }
 
 

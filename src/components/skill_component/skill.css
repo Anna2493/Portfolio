@@ -1,0 +1,48 @@
+.skill-container{
+    /* display: grid;
+    border: 1px solid black; */
+}
+
+.skill-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.skill-item{
+    background: white;
+    border-radius: 10px;
+    list-style: none;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.skill-item img{
+    width: 30px;
+    justify-self: end;
+    align-self: center;
+}
+
+.skill-item p{
+    align-self: center;
+}
+
+.skill-name{
+    font-size: 18px;
+    font-family: 'Comfortaa', sans-serif;
+    color: #6C8C8A;
+}
+
+.LOE-text{
+    font-size: 11px;
+    font-family: 'Comfortaa', sans-serif;
+    color: black;
+    justify-self: end;
+}
+
+.expirience-text{
+    font-size: 13px;
+    font-family: 'Comfortaa', sans-serif;
+}

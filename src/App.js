@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-d
 import Home from './components/pages/home/Home'
 import About from './components/pages/about/About'
 import Projects from './components/pages/projects/Projects';
+
+
 import QMethod_project from './components/pages/projects/QMethodology_project/QMethodology'
 import AutoQSurvey_project from './components/pages/projects/autoQsurvey_project/AutoQsurvey_project'
 
