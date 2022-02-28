@@ -12,16 +12,19 @@ import AutoQSurvey_project from './components/pages/projects/autoQsurvey_project
 
 function App() {
   return (
-    <div>
-      <header>
-        <Home />
-      </header>
+    <div className='container'>
+      <section>
+        <Home/>
+      </section>
+      
       <section>
       <About/>
       </section>
       
+      <section>
+      <Projects/>
+      </section>
       
-      <Projects />
     </div>
     
   );

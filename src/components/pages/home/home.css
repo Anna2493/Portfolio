@@ -1,39 +1,6 @@
-/* .grid-wrapper{
-    margin: 200px 400px 0px 400px;
-    display: grid;
-    grid-template-columns: 30% 70%;
-    gap: 100px;
-}
-
-.picture-container{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.profile-picture{
-    width: 350px;
-    height: auto;
-    border-radius: 50%;
-}
-
-.hi{
-    font-family: 'Roboto', sans-serif;
-    font-size: 100px;
-}
-
-.about-me{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-}
-
-.projects-container{
-    border: 1px solid #000;
-
-} */
 
 .landing-page-container{
-    height: 100vh;
+    /* height: 100vh; */
     padding-top: 200px;
 }
 
