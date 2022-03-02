@@ -40,8 +40,8 @@
         to right bottom, 
         rgba(95, 98, 54, 0.7), 
         rgba(139, 143, 88, 0.5)); */
-    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.5);
-    border: 0.5px solid rgb(92, 92, 92);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    /* border: 0.5px solid rgb(92, 92, 92); */
     /* border-radius: 20px; */
     margin-top: 100px;
     width: 40%;

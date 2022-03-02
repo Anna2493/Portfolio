@@ -12,7 +12,7 @@ import nine from '../../../images/qMethodology/9.gif'
 import ten from '../../../images/qMethodology/10.gif'
 
 
-function Project() {
+function QMethodology() {
     return (
         <div>
 
@@ -112,4 +112,4 @@ function Project() {
     )
 }
 
-export default Project
+export default QMethodology

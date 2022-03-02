@@ -14,7 +14,7 @@
 .about-page-container h2{
     font-size: 50px;
     font-family: 'Comfortaa', sans-serif;
-    color: #6C8C8A;
+    color: white;
     margin-top: 10px;
 }
 
@@ -37,16 +37,17 @@
     padding: 20px;
     font-size: 17px;
     font-family: 'Comfortaa', sans-serif;
-    color: #1C2D2C;
+    color: #6C8C8A;
     display: grid; 
-    border: 1px solid white;
-    /* background: white;
+    /* border: 1px solid white; */
+    background: white;
     background: linear-gradient(
         to right bottom, 
-        rgba(255, 255, 255, 0.8), 
-        rgba(255, 255, 255, 0));
-    -webkit-backdrop-filter: blur(20px); */
-    backdrop-filter: blur(20px);
+        rgba(255, 255, 255, 1), 
+        rgba(255, 255, 255, 1));
+    /* -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px); */
+    box-shadow: 0px 10px 20px rgb(0, 0, 0, 0.3);
 }
 
 .about-me-container div{
@@ -54,7 +55,10 @@
 }
 
 .my-skills-container{
-
+    padding: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0, 0.3);
+    background: white;
 }
 
 .background-image-container{
@@ -67,6 +71,31 @@
     position: absolute;
     top: 5%;
 }
+
+@media screen and (max-width: 1500px){
+
+    .about-page-container{
+         background-size: auto auto;
+    }
+    .about-page-container h2{
+        font-size: 30px;
+    }
+    .about-me-wrapper h3{
+        font-size: 20px;
+    }
+}
+
+/* @media screen and (max-width: 700px){
+    .landing-page-container{
+        background-color: aqua;
+    }
+    .landing-page-container img{
+        opacity: 0%;
+    }
+    .projects-page-container{
+        background-color: blue;
+    }
+} */
 
 
 
