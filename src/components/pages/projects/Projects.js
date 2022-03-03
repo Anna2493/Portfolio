@@ -17,19 +17,12 @@ function Projects() {
     const closeModal = () => setIsOpen(false)
 
     return (
-            <div className='projects-page-container'>
-                <h2>Projects</h2>
-                <div className='cards-container'>
-                    <Card/>
-            </div>
-            
-            {/* <button onClick={openModal}>
-                View Project
-            </button>
-                <Modal className='modal' isOpen={modalIsOpen} onRequestClose={closeModal}>
-                    <h4>Modal</h4>
-                </Modal>              */}
-            </div>
+        <div className='projects-page-container'>
+            {/* <h2>Projects</h2>
+            <div className='cards-container'>
+                <Card/>
+            </div> */}
+        </div>
     )
 }
 

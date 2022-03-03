@@ -1,9 +1,12 @@
 .projects-page-container{
     height: 100vh;
-    background-color: #EFDFDD;
+    background-color: #fff;
     display: grid;
     justify-items: center;
-    align-items: center;
+    background-image: url('../../images/background/ProjectPageImage.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: auto auto;
 }
 
 .projects-page-container h2{
@@ -17,66 +20,11 @@
 }
 
 
-/* 
-.container{
-    display: grid;
-    justify-items: center;
-    margin: 200px 0px 200px 0px;
-}
+@media screen and (max-width: 1500px){
 
-.page-title{
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-.projects-container-grid{
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    gap: 30px;
-    justify-items: center;
-    align-items: center;
+    .projects-page-container{
+         background-size: auto auto;
+    }
     
 }
 
-.project-item{
-    border: 1px solid #ddd;
-    width: 400px;
-    height: 400px;
-    display: grid;
-    padding: 5px;
-    background-color: #ddd;
-}
-
-.project-item:hover{
-    cursor: pointer;
-    opacity: 0.5;
-}
-
-.project-title{
-    display: grid;
-    justify-items: center;
-    background-color: #ddd;
-    color: black;
-}
-
-.project-name{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.project-sub-name{
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    padding-top: 10px;
-}
-
-.tile-image{
-    width: 400px;
-    height: 300px;
-}
-
-.link{
-    text-decoration: none;
-} */

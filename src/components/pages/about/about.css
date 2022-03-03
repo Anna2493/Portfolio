@@ -1,13 +1,13 @@
 .about-page-container{
     height: 100vh;
-    background-color: #FCF3E9;
+    background-color: #fff;
     display: grid;
     justify-items: center;
     /* align-items: center; */
-    background-image: url('../../images/background/aboutMe/background4.png');
+    background-image: url('../../images/background/aboutPageImage.png');
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100vw 700px;
+    background-position: bottom;
+    background-size: auto auto;
     
 }
 

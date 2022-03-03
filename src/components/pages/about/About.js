@@ -10,7 +10,7 @@ import blueWave from '../../images/background/aboutMe/blueWave.png'
 function About() {
     return (
         <div className="about-page-container">
-            <h2>About me</h2>
+            {/* <h2>About me</h2>
 
             <div className="about-me-wrapper">
                 <div className="about-me-container">
@@ -47,22 +47,8 @@ function About() {
                 <div className="my-skills-container">
                     <Skill/>
                 </div>
-            </div>
+            </div> */}
     
-            {/* <div className="background-image-container">
-                <img className="orange-image" src={orangeWave} />
-                <img className="green-image" src={greenWave} />
-                <img className="blue-image" src={blueWave}/>
-            </div> */}
-            
-            {/* <div className="body-container"> */}
-                
-                
-            {/* </div> */}
-            {/* <div className="background-image-container">
-                <img src={background}/>
-            </div> */}
-            
         </div>
     )
 }
