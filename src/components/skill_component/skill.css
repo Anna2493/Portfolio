@@ -1,49 +1,64 @@
 .skill-container{
-    /* display: grid;
-    border: 1px solid black; */
+    /* overflow-y: scroll; */
+}
+
+.heading-wrapper{
+    padding: 30px 0px 0px 50px;
+    display: grid;
+}
+
+.heading-wrapper h1{
+    font-size: 50px;
+    font-family: 'Lobster', sans-serif;
+    color: #6C8C8A;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+.heading-wrapper p{
+    font-size: 10px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 15px;
+    color: #475B5A;
+    justify-self: end;
+    margin-right: 125px;
 }
 
 .skill-items{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    justify-items: center;
+    
 }
 
 .skill-item{
-    background: #FCF3E9;
-    /* border-radius: 10px; */
+    background: #fff;
     list-style: none;
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    /* box-shadow: 0px 10px 20px rgb(0, 0, 0, 0.3); */
+    box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.3);
+    width: 500px;
 }
 
 .skill-item img{
     width: 30px;
-    justify-self: end;
+    justify-self: center;
     align-self: center;
 }
 
 .skill-item p{
+    justify-self: start;
     align-self: center;
 }
 
 .skill-name{
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Comfortaa', sans-serif;
     color: #6C8C8A;
-}
-
-.LOE-text{
-    font-size: 11px;
-    font-family: 'Comfortaa', sans-serif;
-    color: #6C8C8A;
-    justify-self: end;
 }
 
 .expirience-text{
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Comfortaa', sans-serif;
 }

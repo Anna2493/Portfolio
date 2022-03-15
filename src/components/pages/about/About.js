@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import './about.css'
 import Skill from '../../skill_component/Skill.js'
+import AboutMe from '../../about-me-component/AboutMe.js'
 
 import background from '../../images/background/aboutMe/background.png'
 import orangeWave from '../../images/background/aboutMe/orangeWave.png'
@@ -8,46 +9,47 @@ import greenWave from '../../images/background/aboutMe/greenWave.png'
 import blueWave from '../../images/background/aboutMe/blueWave.png'
 
 function About() {
+
+    /*using the state hook to manipulate virtual DOM
+    to change the state of the button by adding 
+    the 'active' className if its true and 
+    remove it if its false*/
+    const [isViewSkills, setViewSkills] = useState(true);
+    
     return (
         <div className="about-page-container">
-            {/* <h2>About me</h2>
-
-            <div className="about-me-wrapper">
-                <div className="about-me-container">
-                    <div>
-                    <p>
-                        My passion for software development sparked when I first 
-                        encountered it, back in 2017. To me writing code is a creative process. 
-                        It is taking an idea and developing it. That is what appealed to 
-                        me the most - how I can use my creative side to write code.
-                    </p>
-                    </div>
-                        
-                    <div>
-                    <p>    
-                        I went to Edinburgh Napier University to pursue Software Development career. 
-                        Most of what you see here on this website is a result of self-taught skills. 
-                        I continue to learn and grow as a developer by seeking new challenges, 
-                        solving coding problems and adding projects to my portfolio.
-                    </p>
-                    </div>
-
-                    <div>
-                    <p>
-                        When I am not coding, I like to keep busy with my 
-                        arts and crafts hobby. My favourite at the moment is scrapbooking. 
-                        I love to design new layouts, mix and match colour schemes, 
-                        and plan my next scrapbook project. When I am not doing any of that 
-                        I spend time with my family. 
-                    </p>
-                    </div>
-                </div>
+            <div className="components-container">
                 
-                <h3>What I can do</h3>
-                <div className="my-skills-container">
-                    <Skill/>
+                <div className="background-container">
+                    
+                    <div className="box about-me">
+                        <button
+                            className="btn-see-about-me"
+                            onClick={() => setViewSkills(true)}>See About Me</button>
+                    </div>
+
+                    <div className="box skills">
+                        <button
+                            className="btn-see-skills"
+                            onClick={() => setViewSkills(false)}>See My Skills</button>
+                    </div>
+                
                 </div>
-            </div> */}
+
+                <div className={isViewSkills ? "content-box" : "content-box active"}>
+            
+                    <div className="content about-me-content">
+                        <AboutMe/>
+                    </div>
+
+                    <div className="content skills-content">
+                        <Skill/>
+                    </div>
+            
+                </div>
+
+                
+            </div>
     
         </div>
     )

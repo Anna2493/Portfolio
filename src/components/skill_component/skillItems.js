@@ -54,8 +54,8 @@ export const skillItems = [
         color: "#EF8407"
     },
     {
-        icon: require("../images/icons/cplusplus.svg").default,
-        skill: "C++",
+        icon: require("../images/icons/csharp.svg").default,
+        skill: "C#",
         expirience: "HAVE EXPOSURE TO",
         color: "#38B5DD"
     },

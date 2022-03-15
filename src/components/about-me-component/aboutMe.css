@@ -1,0 +1,30 @@
+.about-me-container{
+    padding: 30px 0px 0px 50px;
+}
+
+.heading-container{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.about-me-container h1{
+    font-size: 50px;
+    font-family: 'Lobster', sans-serif;
+    color: #DB7364;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+.paragraph-wrapper{
+    padding: 30px 50px 0px 0px;
+}
+
+.paragraph-wrapper div{
+    margin-top: 20px;
+}
+
+.paragraph-wrapper p{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    color: #475B5A;
+}
