@@ -3,10 +3,6 @@ import './about.css'
 import Skill from '../../skill_component/Skill.js'
 import AboutMe from '../../about-me-component/AboutMe.js'
 
-import background from '../../images/background/aboutMe/background.png'
-import orangeWave from '../../images/background/aboutMe/orangeWave.png'
-import greenWave from '../../images/background/aboutMe/greenWave.png'
-import blueWave from '../../images/background/aboutMe/blueWave.png'
 
 function About() {
 

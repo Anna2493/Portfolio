@@ -18,12 +18,14 @@
     min-height: 300px;
     max-height: auto;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
     transition: 200ms ease-in;
     background: white;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
+    border-radius: 30px;
 }
 
 .card-item:hover {
@@ -36,25 +38,25 @@
 
 .card-item h3{
     font-size: 20px;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Catamaran', sans-serif;
     color: #1C2D2C;
     margin: 20px 10px 0px 10px;
+    text-align: center;
 }
 
 .card-item p{
     font-size: 14px;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Catamaran', sans-serif;
     color: #1C2D2C;
-    margin: 20px 20px 0px 20px;
+    margin: 20px 20px 20px 20px;
 
 }
 
 .card-item button{
-    /* margin-top: 20px; */
-    font-size: 20px;
-    padding: 15px;
-    font-family: 'Comfortaa', sans-serif;
-    background: #DBA464;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Catamaran', sans-serif;
+    background: rgba(167, 169, 83, 1);
     cursor: pointer;
     border: none;
     color: white;
@@ -62,6 +64,7 @@
     display: grid;
     align-self: center;
     margin-bottom: 10px;
+    border-radius: 30px;
 }
 
 /* .card-item button:hover{

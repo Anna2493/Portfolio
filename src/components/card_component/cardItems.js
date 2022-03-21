@@ -33,6 +33,7 @@ export const cardItems = [
         image4: "",
         image5: "",
     },
+    
     {
         title: "autoQsurvey",
         description: `Full stack prototype application 

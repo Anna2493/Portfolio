@@ -7,12 +7,14 @@
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: auto auto;
+    align-items: center;
 }
 
-.projects-page-container h2{
+.projects-heading-container h1{
     font-size: 50px;
-    font-family: 'Comfortaa', sans-serif;
-    color: #6C8C8A;
+    font-family: 'Lobster', sans-serif;
+    color: #A7A953;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
 }
 
 .cards-container{
@@ -20,11 +22,11 @@
 }
 
 
-@media screen and (max-width: 1500px){
+/* @media screen and (max-width: 1500px){
 
     .projects-page-container{
          background-size: auto auto;
     }
     
-}
+} */
 

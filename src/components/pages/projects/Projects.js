@@ -18,10 +18,12 @@ function Projects() {
 
     return (
         <div className='projects-page-container'>
-            {/* <h2>Projects</h2>
+            <div className='projects-heading-container'>
+                <h1>Projects</h1>
+            </div>
             <div className='cards-container'>
                 <Card/>
-            </div> */}
+            </div>
         </div>
     )
 }
