@@ -25,13 +25,17 @@ function About() {
                     <div className="box about-me">
                         <button
                             className="btn-see-about-me"
-                            onClick={() => setViewSkills(true)}>See About Me</button>
+                            onClick={() => setViewSkills(true)}>
+                            See About Me
+                        </button>
                     </div>
 
                     <div className="box skills">
                         <button
                             className="btn-see-skills"
-                            onClick={() => setViewSkills(false)}>See My Skills</button>
+                            onClick={() => setViewSkills(false)}>
+                            See My Skills
+                        </button>
                     </div>
                 
                 </div>

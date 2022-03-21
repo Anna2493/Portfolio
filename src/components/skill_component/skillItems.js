@@ -24,12 +24,6 @@ export const skillItems = [
         color: "#C6D31A"
     },
     {
-        icon: require("../images/icons/python.svg").default,
-        skill: "Python",
-        expirience: "SEMI-CONFIDENT",
-        color: "#EF8407"
-    },
-    {
         icon: require("../images/icons/java.svg").default,
         skill: "Java",
         expirience: "SEMI-CONFIDENT",
@@ -52,6 +46,12 @@ export const skillItems = [
         skill: "React Native",
         expirience: "SEMI-CONFIDENT",
         color: "#EF8407"
+    },
+    {
+        icon: require("../images/icons/python.svg").default,
+        skill: "Python",
+        expirience: "HAVE EXPOSURE TO",
+        color: "#38B5DD"
     },
     {
         icon: require("../images/icons/csharp.svg").default,

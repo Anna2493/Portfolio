@@ -43,13 +43,23 @@
 }
 
 .box button{
-    cursor: pointer;
-    padding: 10px 20px;
-    background: #fff;
-    color: #333;
-    font-size: 16px;
-    font-weight: 500;
     border: none;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.3);
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Catamaran', sans-serif;
+    background: rgba(219, 115, 100, 0.7);
+    color: #fff;
+    border-radius: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+.box button:hover{
+    cursor: pointer;
+    color: #475B5A;
+    background: rgba(255, 255, 255, 1);
+    transform: translate(0px, 10px);
+    transform: scale(1.1, 1.1);
 }
 
 .content-box{
