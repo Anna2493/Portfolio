@@ -7,7 +7,7 @@ export default function Skill() {
         <div className='skill-container'>
             <div className='heading-wrapper'>
                 <h1>What I can do</h1>
-                <p>Level of expirience</p>
+                {/* <p>Level of expirience</p> */}
             </div>
             <ul className='skill-items'>
                 {skillItems.map((item,index) => {
