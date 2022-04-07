@@ -1,8 +1,13 @@
 .modal{
-    background: white;
-    width: 1000px;
+    background: #fff;
+    width: 1500px;
+    /* min-width: 50%; */
+    /* max-width: 1500px; */
     height: 800px;
-    border: 2px solid #6C8C8A;
+    /* padding: 10px; */
+    border: none;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -10,37 +15,51 @@
     bottom: auto;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    outline: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
-.project-grid-container{
+/* .project-grid-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 20px;
-}
-
-.project-grid-container :nth-child(odd){
-    /* background: red; */
+    margin: 20px 0px 20px 0px;
 }
 
 .col-one-container{
     display: grid;
-    grid-template-rows: repeat(4, 1fr);
-}
-
-.col-one-container :nth-child(odd){
-    background: red;
+    grid-template-rows: 1fr 1fr 4fr 4fr;
 }
 
 .col-one-container h2{
     text-align: center;
+    align-self: center;
+    font-size: 25px;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 .col-one-container h3{
     text-align: center;
+    align-self: start;
+    font-size: 18px;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 .col-one-container p{
-    margin: 20px 0px 0px 20px
-
+    margin: 0px 0px 0px 20px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    padding: 20px;
 }
+
+.what-i-learned{
+    background: #C31934;
+    color: #fff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.what-i-learned h4{
+    font-size: 23px;
+    margin-bottom: 10px;
+} */
 

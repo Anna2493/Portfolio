@@ -67,6 +67,11 @@
     border-radius: 30px;
 }
 
+.card-items img{
+    height: 200px;
+    width: 200px;
+}
+
 /* .card-item button:hover{
     background: #6C8C8A;
 } */

@@ -1,5 +1,6 @@
 export const cardItems = [
     {
+        id: 1,
         title: "Q Methodology Digital Application",
         
         description: `A React JS prototype application,
@@ -15,7 +16,7 @@ export const cardItems = [
         cover all SDLC steps, and of course learn ReactJS, JavaScript, HTML and CSS.`,
 
         whatIDid: `I developed a front end for this application. 
-        I know that it is not the most exciting looking UI but 
+        The UI might not be the most exciting but 
         I am proud of what I achived given the large scope of this project, 
         no previous expirience in the technology used, 
         time scale and two addiotnal modules at university. `,
@@ -27,7 +28,7 @@ export const cardItems = [
         JavaScript
         HTML + CSS`,
 
-        image1: "",
+        image1: require("../images/qMethodology/1.PNG").default,
         image2: "",
         image3: "",
         image4: "",
@@ -35,6 +36,7 @@ export const cardItems = [
     },
     
     {
+        id: 2,
         title: "autoQsurvey",
         description: `Full stack prototype application 
         developed for the Honours Project. The goal was 

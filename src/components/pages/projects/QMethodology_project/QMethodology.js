@@ -14,101 +14,49 @@ import ten from '../../../images/qMethodology/10.gif'
 
 function QMethodology() {
     return (
-        <div>
-
-        {/* <div className='wrapper'> */}
-        <div className='project-title-wrapper'>
-            <div className='child'>
-                <a className='project-page-title'>Q Methodology</a>
-                <a className='project-page-sub-title'>Digital Prototype</a>
-            </div>
-            {/* <div className='project-description-wrapper'>
-                <a className='project-description'> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident,
-                    sunt in culpa qui officia deserunt mollit anim id est laborum.</a>  
-            </div>  */}
-        </div>       
-        
-        <div className='body-wrapper-grid'>
+        <div className='q-method-grid'>
             
-            <div className='column-one'>
-                <img src={one} alt='home page' className='medium-image'/>
-            </div>
-            <div className='text-one column-two'>
-                Image 1
-            </div>
-
-            <div className='text-two column-one'>
-                Image 2
-            </div>
-            <div className='column-two'>
-                <img src={two} alt='home page' className='big-image'/>
+            <div className='q-method-column-1'>
+                <h1>Q methodology Digital Prototype Application</h1>
+                <h2>Group Project</h2>
+                <p>
+                    One of the more exciting and hands on modules at university 
+                    that I completed was a Group Project module. I had the opportunity 
+                    to experience working within a team, starting project from scratch, 
+                    cover all SDLC steps, and of course learn ReactJS, JavaScript, HTML and CSS.
+                </p>
+                <h3>What I've done</h3>
+                <p>
+                    I developed a front end for this application. 
+                    The UI might not be the most exciting but 
+                    I am proud of what I achived given the large scope of this project, 
+                    no previous expirience in the technology used, 
+                    time scale and two addiotnal modules at university.
+                </p>
             </div>
             
-            <div className='column-one'>
-                <img src={three} alt='home page' className='large-image'/>
-            </div>    
-            <div className='text-one column-two'>
-                Image 3
-            </div>
-            
-            <div className='text-two column-one'>
-                Image 4
-            </div>
-            <div className='column-two'>
-                <img src={four} alt='home page' className='medium-image'/>
+            <div className='q-method-column-2'>
+                <img src={one} />
+                <img src={nine} />
+                <h3>What I've Learned</h3>
+                <ul>
+                    <li>Team working</li>
+                    <li>Agile</li>
+                    <li>Sprint planning</li>
+                    <li>React JS</li>
+                    <li>JavaScript</li>
+                    <li>HTML + CSS</li>
+                </ul>
             </div>
 
-            <div className='column-one nested-grid'>
-                <img src={five} alt='home page' className='medium-image'/>
-                <img src={six} alt='home page' className='big-image'/>
-            </div>
-            <div className='text-one column-two'>
-                Image 5 and 6
-            </div>
-
-            <div className='text-two column-one'>
-                Image 7
-            </div>
-            <div className='column-two'>
-                <img src={seven} alt='home page' className='small-image'/>
-            </div>
-
-            <div className='column-one nested-grid'>
-                <img src={eight} alt='home page' className='medium-image' />
-                <img src={nine} alt='home page' className='big-image'/>
-            </div>
-            <div className='text-one column-two'>
-                Image 8 and 9
-            </div>
-            
-            <div className='text-two column-one'>
-                Image 10
-            </div>
-            <div className='column-two'>
-                <img src={ten} alt='home page' className='large-image'/>
+            <div className='q-method-column-3'>
+                <img src={three} />
+                <img src={four} />
+                <img src={six}/>
             </div>
             
             
-            {/* <div className='text-two column-one'>
-                column 1
-            </div> */}
-            {/* <div>
-                <img src={ten} alt='home page'/>
-            </div> */}
-            </div>
-           {/* </div>  */}
-            {/* <div className='centered-grid'>
-                <div className='box'>Box 1</div>
-                <div className='box'>Box 2</div>
-                <div className='box'>Box 3</div>
-                <div className='box'>Box 4</div>
-            </div> */}
-    </div>
+        </div>
     )
 }
 
