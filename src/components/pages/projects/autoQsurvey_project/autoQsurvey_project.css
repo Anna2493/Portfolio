@@ -1,0 +1,106 @@
+.auto-q-grid {
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+.auto-q-row-1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+.auto-q-column-1 {
+    display: grid;
+    width: 300px;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+
+.auto-q-title {
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    color: #1C2D2C;
+    justify-self: center;
+}
+
+.auto-q-title h1 {
+    margin-bottom: -15px;
+}
+
+.auto-q-title h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.auto-q-description-container p {
+    font-family: 'Catamaran', sans-serif;
+    color: #1C2D2C;
+    font-size: 18px;
+}
+
+.auto-q-what-ive-done-container {
+    background: #6FC7B0;
+    padding: 10px;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.4));
+}
+
+.auto-q-what-ive-done-container h3 {
+    font-family: 'Catamaran', sans-serif;
+    color: #fff;
+    font-size: 18px;
+}
+
+.auto-q-what-ive-done-container p {
+    font-family: 'Catamaran', sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
+
+.auto-q-column-2 {
+    align-self: start;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.auto-q-c2-r1{
+    align-self: end;
+}
+
+.auto-q-c2-r2{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+    align-self: start;
+}
+
+.auto-q-img-1{
+    width: 700px;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.4));
+}
+
+.auto-q-img-10 {
+    width: 400px;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.4));
+}
+
+.auto-q-img-11 {
+    width: 600px;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.4));
+}
+
+.auto-q-img-13 {
+    width: 350px;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.4));
+}
+
+.auto-q-row-2{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
+}
+
+
+

@@ -8,11 +8,8 @@
 .q-method-column-1{
     display: grid;
     width: 300px;
-    /* grid-auto-rows: auto; */
     grid-template-rows: auto auto auto;
-    /* border: 2px solid red; */
     gap: 20px;
-    /* background-color: lightgray; */
 }
 
 /* .q-method-column-1  :nth-child(odd){
@@ -23,7 +20,6 @@
     text-align: center;
     font-family: 'Catamaran', sans-serif;
     color: #1C2D2C;
-    /* border: 2px solid red; */
     justify-self: center;
 }
 
