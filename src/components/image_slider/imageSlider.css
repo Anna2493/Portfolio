@@ -1,0 +1,32 @@
+.slider{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-items: end;
+    align-items: center;
+}
+
+.left-arrow{
+    justify-self: end;
+    font-size: 50px;
+    color: #C31934;
+    cursor: pointer;
+}
+
+.right-arrow{
+    justify-self: end;
+    font-size: 50px;
+    color: #C31934;
+    cursor: pointer;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    height: 500px;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
+    border-radius: 10px;
+
+}

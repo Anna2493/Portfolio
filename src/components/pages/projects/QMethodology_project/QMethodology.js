@@ -1,5 +1,7 @@
 import React from 'react'
 import './qMethodology.css'
+import ImageSlider from '../../../image_slider/ImageSlider'
+import { QMethodologyImages } from './QMethodologyImages'
 
 
 function QMethodology() {
@@ -61,7 +63,7 @@ function QMethodology() {
 
             <div className='q-method-col3'>
                 <div className='images-container'>
-                    Images
+                    <ImageSlider image={QMethodologyImages}/>  
                 </div>
             </div>
             

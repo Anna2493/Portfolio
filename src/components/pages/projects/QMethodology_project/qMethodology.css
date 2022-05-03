@@ -54,6 +54,7 @@
     padding: 10px;
     filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.4));
     height: 100%;
+    border-radius: 10px;
 }
 
 .q-method-what-ive-done-container h3 {
@@ -91,6 +92,7 @@
     height: 100%;
     padding: 10px;
     filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
+    border-radius: 10px;
 }
 
 .list-container h3 {
@@ -109,14 +111,14 @@
 /*----COL 3-----*/
 
 .q-method-col3 {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: grid;
     justify-items: center;
     align-items: center;
 }
 
 .images-container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 500px;
     width: 100%;
 }
