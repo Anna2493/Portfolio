@@ -28,7 +28,7 @@ export const cardItems = [
         JavaScript
         HTML + CSS`,
 
-        image1: require("../images/qMethodology/1.PNG").default,
+        // image1: require("../images/qMethodology/1.PNG").default,
         image2: "",
         image3: "",
         image4: "",

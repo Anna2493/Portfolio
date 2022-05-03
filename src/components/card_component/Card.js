@@ -17,7 +17,7 @@ export default function Card (){
     const [subHeading, setSubHeading] = useState()
     const [introText, setIntroText] = useState()
     const [whatIDid, setWhatIDid] = useState()
-    const [image1, setImageOne] = useState()
+    // const [image1, setImageOne] = useState()
 
     const openModal = (
         id,
@@ -25,7 +25,7 @@ export default function Card (){
         subHeading,
         intro,
         whatIDid,
-        image1
+        // image1
     ) => {
         setIsOpen(true)
         setId(id)
@@ -33,7 +33,7 @@ export default function Card (){
         setSubHeading(subHeading)
         setIntroText(intro)
         setWhatIDid(whatIDid)
-        setImageOne(image1)
+        // setImageOne(image1)
         
         console.log(id)
         if (id === 1) {
@@ -59,7 +59,7 @@ export default function Card (){
                                 item.subHeading,
                                 item.intro,
                                 item.whatIDid,
-                                item.image1
+                                // item.image1
                             )}
                         >
                             <h3>{item.title}</h3>

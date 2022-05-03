@@ -17,7 +17,7 @@
     transform: translate(-50%, -50%);
     outline: 0;
     overflow-x: hidden;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 /* .project-grid-container{
