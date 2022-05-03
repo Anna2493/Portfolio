@@ -44,7 +44,9 @@ const ImageSlider = (props) => {
                 {props.image.map((item, index) => {
                     return (
                         <div className='image-container' key={index}>
-                            {index === current && (<img src={item.img} alt="image" className='image' />)}
+                            {index === current && (
+                                <img src={item.img} alt="image" className='image' />
+                            )}
                             
                         </div>
                     

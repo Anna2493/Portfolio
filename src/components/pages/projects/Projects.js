@@ -6,9 +6,6 @@ import Modal from 'react-modal';
 import { useState } from 'react'
 import '../../project_modal/projectModal.css'
 
-import homePageAutoQsurvey from '../../images/autoQsurvey/home page.PNG'
-// import qMethodology from '../../images/qMethodology/home page.PNG'
-import { Link, Route, Router } from 'react-router-dom';
 
 function Projects() {
     const [modalIsOpen, setIsOpen] = useState(false)
