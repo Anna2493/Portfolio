@@ -14,7 +14,17 @@ function About() {
     
     return (
         <div className="about-page-container">
-            <div className="components-container">
+            <div className="about-page-components-grid">
+                <div className="box2">
+                    <AboutMe/>
+                </div>
+            
+                <div className="box2">
+                    <Skill/>
+                </div>
+            </div>
+            
+            {/* <div className="components-container">
                 
                 <div className="background-container">
                     
@@ -49,7 +59,7 @@ function About() {
                 </div>
 
                 
-            </div>
+            </div> */}
     
         </div>
     )
