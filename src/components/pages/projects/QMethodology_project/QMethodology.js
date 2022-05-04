@@ -30,7 +30,7 @@ function QMethodology() {
                 </div>
 
                 <div className='q-method-col1-row-3'>
-                    <div className='q-method-what-ive-done-container'>
+                    <div className='q-method-what-ive-done-container' style={{ background:`#C31934`}}>
                         <h3>What I've done</h3>
                         <p>
                             I developed a front end for this application. 
@@ -47,7 +47,7 @@ function QMethodology() {
                 <div className='q-method-col2-row-1'></div>
                 
                 <div className='q-method-col2-row-2'>
-                    <div className='list-container'>
+                    <div className='list-container' style={{ background:`#C31934`}}>
                      <h3>What I've Learned</h3>
                         <ul>
                             <li>Team working</li>

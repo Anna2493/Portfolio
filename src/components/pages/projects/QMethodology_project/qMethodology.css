@@ -11,12 +11,13 @@
 .q-method-col1{
     /* border: 1px solid green; */
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
     gap: 20px;
 }
 
 .q-method-col1-row-1{
     /* border: 1px solid black; */
+
 }
 
 .q-method-title {
@@ -50,7 +51,7 @@
 }
 
 .q-method-what-ive-done-container {
-    background-color: #C31934;
+    /* background-color: #C31934; */
     padding: 10px;
     filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.4));
     height: 100%;
@@ -88,7 +89,7 @@
 
 .list-container {
     width: auto;
-    background-color: #C31934;
+    /* background-color: #C31934; */
     height: 100%;
     padding: 10px;
     filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
@@ -123,98 +124,5 @@
     width: 100%;
 }
 
-/* .q-method-column-1{
-    display: grid;
-    width: 300px;
-    grid-template-rows: auto auto auto;
-    gap: 20px;
-} */
 
-/* .q-method-column-1  :nth-child(odd){
-    background-color: grey;
-} */
-
-/* .q-method-title{
-    text-align: center;
-    font-family: 'Catamaran', sans-serif;
-    color: #1C2D2C;
-    justify-self: center;
-}
-
-.q-method-title h1{
-    margin-bottom: -15px;
-}
-
-.q-method-title h2 {
-    margin-top: 10px;
-    font-size: 18px;
-}
-
-.q-method-description-container{
-    margin-top: 100px; 
-    align-self: center; 
-    border: 2px solid red;
-} */
-
-/* .q-method-description-container p{
-    font-family: 'Catamaran', sans-serif;
-    color: #1C2D2C;
-    font-size: 20px;
-}
-
-.q-method-what-ive-done-container{
-    background-color: #C31934;
-    padding: 10px;
-    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.4));
-}
-
-.q-method-what-ive-done-container h3 {
-    font-family: 'Catamaran', sans-serif;
-    color: #fff;
-    font-size: 18px;
-}
-
-.q-method-what-ive-done-container p {
-    font-family: 'Catamaran', sans-serif;
-    color: #fff;
-    font-size: 16px;
-}
-
-
-.q-method-column-2{
-    display: grid;
-    grid-template-rows: repeat(3, auto);
-    justify-content: center;
-    gap: 20px;
-    
-}
-
-
-.list-container {
-    width: auto;
-    background-color: #C31934;
-    height: auto;
-    padding: 10px;
-    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
-}
-
-.list-container h3 {
-    font-family: 'Catamaran',sans-serif;
-    color: #fff;
-    font-size: 18px;
-}
-
-.list-container li {
-    font-family: 'Catamaran',sans-serif;
-    color: #fff;
-    font-size: 16px;
-    margin-left: 20px;
-}
-
-.q-method-column-3{
-    display: grid;
-    grid-template-rows: repeat(3, auto);
-    justify-content: center;
-    gap: 20px;
-} */
 
