@@ -14,7 +14,7 @@ function Home() {
                 </div>
 
                 <div className='hi-container'>
-                    <h1 className='hi'>Hi..</h1>
+                    <h1 className='hi'>Hi...</h1>
                 </div>
                 
                 <div className='introduction'>

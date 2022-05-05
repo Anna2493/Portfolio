@@ -15,6 +15,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    /* flex: 100%; */
 }
 
 
@@ -22,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: -50px;
+    margin-left: -40px;
     margin-top: -350px;
 }
 
@@ -47,10 +49,13 @@
 }
 
 .introduction{
+    /* display: flex;
+    flex-wrap: wrap;
+    flex: 100%; */
     width: 720px;
     background: rgba(244, 244, 244, 0.7);
-    padding: 40px;
-    border-radius: 70px;
+    padding: 20px 20px 20px 35px;
+    border-radius: 60px;
     margin-top: 100px;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.4);
 }
@@ -107,9 +112,103 @@
     font-family: 'Comfortaa', cursive;
 }
 
-@media screen and (max-width: 1500px){
+@media only screen and (max-width: 1280px) {
+
+    .landing-page-container {
+        background-size: auto auto;
+    }
+
+    /* .introduction{
+        flex: 50%;
+    } */
+
+}
+
+@media only screen and (max-width: 950px){
 
     .landing-page-container{
          background-size: auto auto;
+    }
+
+    .introduction-container { 
+        display: grid;
+    }
+
+    .hi-container {
+        margin-top: -600px;
+    }
+
+    .hi {
+        font-size: 100px;
+        
+    }
+
+    .profile-picture {
+        width: 300px;
+        /* transition: 1000ms ease; */
+    }
+
+    .introduction {
+        width: 720px;
+    }
+
+    .introduction p {
+        font-size: 20px;
+    }
+    
+    .large-text {
+        font-size: 30px;
+    }
+    
+    .medium-text {
+        font-size: 25px;
+    }
+    
+    .small-text {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .landing-page-container {
+        background-size: auto auto;
+    }
+
+    .introduction-container {
+        display: grid;
+    }
+
+    .hi-container {
+        margin-top: -600px;
+    }
+
+    .hi {
+        font-size: 75px
+    }
+
+    .profile-picture {
+        width: 275px;
+        /* transition: 1000ms ease; */
+    }
+
+    .introduction {
+        width: 695px;
+    }
+
+    .introduction p {
+        font-size: 18px;
+    }
+
+    .large-text {
+        font-size: 28px;
+    }
+
+    .medium-text {
+        font-size: 23px;
+    }
+
+    .small-text {
+        font-size: 18px;
     }
 }
